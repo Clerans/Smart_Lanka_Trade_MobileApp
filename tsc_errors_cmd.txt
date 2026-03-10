@@ -1,0 +1,53 @@
+src/components/BottomTabBar.tsx(49,41): error TS2339: Property 'tabBarTestID' does not exist on type 'BottomTabNavigationOptions'.
+src/components/InputField.tsx(19,14): error TS2769: No overload matches this call.
+  Overload 2 of 2, '(props: TextInputProps, context: any): TextInput', gave the following error.
+    Type 'false | "" | 0 | 0n | { paddingLeft: number; } | null | undefined' is not assignable to type 'TextStyle | Falsy | RecursiveArray<TextStyle | Falsy> | readonly (TextStyle | Falsy)[]'.
+      Type '0' is not assignable to type 'TextStyle | Falsy | RecursiveArray<TextStyle | Falsy> | readonly (TextStyle | Falsy)[]'.
+  Overload 2 of 2, '(props: TextInputProps, context: any): TextInput', gave the following error.
+    Type 'false | "" | 0 | 0n | { paddingRight: number; } | null | undefined' is not assignable to type 'TextStyle | Falsy | RecursiveArray<TextStyle | Falsy> | readonly (TextStyle | Falsy)[]'.
+      Type '0' is not assignable to type 'TextStyle | Falsy | RecursiveArray<TextStyle | Falsy> | readonly (TextStyle | Falsy)[]'.
+src/components/InputField.tsx(45,9): error TS2783: 'color' is specified more than once, so this usage will be overwritten.
+src/screens/DemoTradingScreen.tsx(36,17): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: TextProps): Text', gave the following error.
+    Type '{ marginBottom: number; fontSize: number; fontWeight: "700"; color: string; fontVariant: readonly ["tabular-nums"]; }' is not assignable to type 'StyleProp<TextStyle>'.
+      Type '{ marginBottom: number; fontSize: number; fontWeight: "700"; color: string; fontVariant: readonly ["tabular-nums"]; }' is not assignable to type 'TextStyle'.
+        Types of property 'fontVariant' are incompatible.
+          The type 'readonly ["tabular-nums"]' is 'readonly' and cannot be assigned to the mutable type 'FontVariant[]'.
+  Overload 2 of 2, '(props: TextProps, context: any): Text', gave the following error.
+    Type '{ marginBottom: number; fontSize: number; fontWeight: "700"; color: string; fontVariant: readonly ["tabular-nums"]; }' is not assignable to type 'StyleProp<TextStyle>'.
+      Type '{ marginBottom: number; fontSize: number; fontWeight: "700"; color: string; fontVariant: readonly ["tabular-nums"]; }' is not assignable to type 'TextStyle'.
+        Types of property 'fontVariant' are incompatible.
+          The type 'readonly ["tabular-nums"]' is 'readonly' and cannot be assigned to the mutable type 'FontVariant[]'.
+src/screens/DemoTradingScreen.tsx(333,5): error TS2783: 'color' is specified more than once, so this usage will be overwritten.
+src/screens/HomeScreen.tsx(40,17): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: TextProps): Text', gave the following error.
+    Type '{ marginBottom: number; fontSize: number; fontWeight: "700"; color: string; fontVariant: readonly ["tabular-nums"]; }' is not assignable to type 'StyleProp<TextStyle>'.
+      Type '{ marginBottom: number; fontSize: number; fontWeight: "700"; color: string; fontVariant: readonly ["tabular-nums"]; }' is not assignable to type 'TextStyle'.
+        Types of property 'fontVariant' are incompatible.
+          The type 'readonly ["tabular-nums"]' is 'readonly' and cannot be assigned to the mutable type 'FontVariant[]'.
+  Overload 2 of 2, '(props: TextProps, context: any): Text', gave the following error.
+    Type '{ marginBottom: number; fontSize: number; fontWeight: "700"; color: string; fontVariant: readonly ["tabular-nums"]; }' is not assignable to type 'StyleProp<TextStyle>'.
+      Type '{ marginBottom: number; fontSize: number; fontWeight: "700"; color: string; fontVariant: readonly ["tabular-nums"]; }' is not assignable to type 'TextStyle'.
+        Types of property 'fontVariant' are incompatible.
+          The type 'readonly ["tabular-nums"]' is 'readonly' and cannot be assigned to the mutable type 'FontVariant[]'.
+src/screens/LoginScreen.tsx(170,5): error TS2783: 'color' is specified more than once, so this usage will be overwritten.
+src/screens/LoginScreen.tsx(194,5): error TS2783: 'color' is specified more than once, so this usage will be overwritten.
+src/screens/LoginScreen.tsx(210,5): error TS2783: 'color' is specified more than once, so this usage will be overwritten.
+src/screens/LoginScreen.tsx(219,5): error TS2783: 'color' is specified more than once, so this usage will be overwritten.
+src/screens/LoginScreen.tsx(227,5): error TS2783: 'color' is specified more than once, so this usage will be overwritten.
+src/screens/MarketWatchScreen.tsx(139,5): error TS2783: 'color' is specified more than once, so this usage will be overwritten.
+src/screens/OTPVerificationScreen.tsx(232,5): error TS2783: 'color' is specified more than once, so this usage will be overwritten.
+src/screens/OTPVerificationScreen.tsx(249,5): error TS2783: 'color' is specified more than once, so this usage will be overwritten.
+src/screens/SOMIAIChatScreen.tsx(294,5): error TS2783: 'color' is specified more than once, so this usage will be overwritten.
+src/screens/TradingTerminalScreen.tsx(287,5): error TS2783: 'color' is specified more than once, so this usage will be overwritten.
+src/screens/WalletOverviewScreen.tsx(33,17): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: TextProps): Text', gave the following error.
+    Type '{ marginBottom: number; fontSize: number; fontWeight: "700"; color: string; fontVariant: readonly ["tabular-nums"]; }' is not assignable to type 'StyleProp<TextStyle>'.
+      Type '{ marginBottom: number; fontSize: number; fontWeight: "700"; color: string; fontVariant: readonly ["tabular-nums"]; }' is not assignable to type 'TextStyle'.
+        Types of property 'fontVariant' are incompatible.
+          The type 'readonly ["tabular-nums"]' is 'readonly' and cannot be assigned to the mutable type 'FontVariant[]'.
+  Overload 2 of 2, '(props: TextProps, context: any): Text', gave the following error.
+    Type '{ marginBottom: number; fontSize: number; fontWeight: "700"; color: string; fontVariant: readonly ["tabular-nums"]; }' is not assignable to type 'StyleProp<TextStyle>'.
+      Type '{ marginBottom: number; fontSize: number; fontWeight: "700"; color: string; fontVariant: readonly ["tabular-nums"]; }' is not assignable to type 'TextStyle'.
+        Types of property 'fontVariant' are incompatible.
+          The type 'readonly ["tabular-nums"]' is 'readonly' and cannot be assigned to the mutable type 'FontVariant[]'.
