@@ -1,1 +1,0 @@
-src/screens/DemoTradingScreen.tsx(333,5): error TS2783: 'color' is specified more than once, so this usage will be overwritten.
